@@ -1,0 +1,61 @@
+.dive{
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 100%;
+    width: 100px;
+    float: left;
+    margin: 20px;
+    text-align: center;
+    
+    padding-top: 30px;
+    height: 70px;
+}
+#div1{
+    background-color: red;
+}
+#div2{
+    background-color: yellow;
+    padding-top: 30px;
+    height: 70px;
+}
+#div3{
+    background-color: green;
+}
+#sho{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-image: url(//img/bg-intro-desktop.svg);
+    background-color: rgb(248, 220, 247);
+    text-align: center;
+    padding-top:5% ;
+}
+input{
+    height: 30px;
+    border: 1px solid lightpink;
+    width: 50%;
+    border-radius: 33px;
+    padding-left: 2%;
+}
+div#besti {
+    margin-top: 23px;
+}
+button{
+    
+        height: 54px;
+        width: 54px;
+        border-radius: 100%;
+        display: block;
+        position: relative;
+        left: 261px;
+        top: 15px;
+        background-color: #ff00ff24;
+        font-style: oblique;
+        font-family: emoji;
+    
+}
+h4 {
+    font-size: 29px;
+    font-family:-webkit-pictograph ;
+
+}
