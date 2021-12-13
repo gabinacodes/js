@@ -1,6 +1,6 @@
 console.log('hello pearls');
     
-}
+
 document.getElementById("pre").style.display = "none";
 document.getElementById("next").style.display = "none";
 document.getElementById("appear").style.display = "none";
@@ -27,10 +27,11 @@ document.getElementById("div3").onclick = function name(params) {
 document.getElementById("input").onclick = function name(params) {
      var type = ""
     
-
+     document.getElementById("besti").style.display = "none"
     document.getElementById("input").value = type
     document.getElementById("input").style.color = "black";
     document.getElementById("input").style.fontStyle = "normal"
+    document.getElementById("besti").style.display = "none"
 }
 document.getElementById("inPut").onclick = function name(params) {
     var type = ""
@@ -39,11 +40,16 @@ document.getElementById("inPut").onclick = function name(params) {
    document.getElementById("inPut").style.color = "black";
     document.getElementById("inPut").style.fontStyle = "normal"
 }
-document.getElementById("besti").innerHTML="WELCOME!!!";
+
 document.getElementById("btn").onclick =function name(params) {
     var nam = ""
     nam = document.getElementById("inPut").value
     document.getElementById("best").innerHTML ="Hi " + nam + "!";
+    document.getElementById("best").style.fontSize = "41px"
+    document.getElementById("best").style.color = "#64236461"
+    document.getElementById("best").style.fontFamily = "cursive"
+    document.getElementById("besti").style.textAlign = "center"
+    document.getElementById("best").style.margin = "2% 3%" 
     document.getElementById("div1").style.display = "block"
     document.getElementById("div2").style.display = "block"
     document.getElementById("div3").style.display = "block"
@@ -72,14 +78,18 @@ document.getElementById("btn3").onclick = function(){
     if(x ==s){
         
         
-        document.getElementById("besti").style.fontSize = "40px";
-        document.getElementById("besti").style.color = "darkgrey";
         document.getElementById("dis").style.display = "block";
         document.getElementById("appear").style.display = "none";
         document.getElementById("getta").style.display = "none";
 
     }else{
-        alert("Sorry, try again!")
+        document.getElementById("besti").style.display = "block"
+        document.getElementById("besti").style.fontSize = "12px";
+        document.getElementById("besti").style.color = "red";
+        document.getElementById("besti").innerHTML = "Try Again";
+       
+        document.getElementById("input").style.border = "2px solid red";
+        
     }
 }
 document.getElementById("btn2").onclick = function name(params) {
