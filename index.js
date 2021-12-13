@@ -1,6 +1,4 @@
 console.log('hello pearls');
-for (var i = 5; i > 0; i--) {
-    alert(i);
     
 }
 document.getElementById("pre").style.display = "none";
